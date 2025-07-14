@@ -60,7 +60,7 @@ import { FaMedium, FaNode, FaTrello } from "react-icons/fa";
 import { DiCss3 } from "react-icons/di";
 
 export const CVLink = "";
-export const repoLink = "";
+export const repoLink = "https://github.com/muhammadmuneeb1800/MuhammadMuneeb";
 export const profileLink = "https://www.linkedin.com/in/muhammadmuneeb1800/";
 export const callToAction = "https://www.linkedin.com/in/muhammadmuneeb1800/";
 

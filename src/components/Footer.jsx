@@ -17,9 +17,9 @@ const Footer = () => {
 
     try {
       await emailjs.sendForm(
-        import.meta.env.VITE_EMAIL_SERVICE_ID, 
+        import.meta.env.VITE_EMAIL_SERVICE_ID,
         import.meta.env.VITE_EMAIL_TEMPLATE_ID,
-        form, 
+        form,
         import.meta.env.VITE_EMAIL_USER_ID // Your EmailJS User ID
       );
       setIsLoading(false);
@@ -183,7 +183,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-center pt-4 pb-4">
           <a
-            href="mailto:umairazmatdev@gmail.com"
+            href="mailto:muhammadmuneeb1800@gmail.com"
             className="px-6 py-1 bg-teal-400 text-black rounded-md text-lg font-semibold hover:bg-teal-500"
           >
             Say Hello!

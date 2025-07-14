@@ -132,7 +132,7 @@ const Hero = () => {
           <h1 className="font-poppins font-semibold text-white text-3xl sm:text-4xl lg:text-5xl leading-tight sm:leading-[60px] lg:leading-[70px] text-center sm:text-left">
             About Me
           </h1>
-          <p className="text-dimWhite text-[19px] font-light mt-4 w-[70%] leading-[29px]">
+          <p className="text-dimWhite font-poppins text-[18px] font-light mt-4 max-w-full md:max-w-[75%] leading-[29px]">
             My name is{" "}
             <span className="text-teal-500 font-bold">Muhammad Muneeb</span>. I
             am a software engineer with a passion for problem-solving, creating
@@ -143,7 +143,7 @@ const Hero = () => {
             </span>
             , I enjoy building scalable, user-focused applications.
           </p>
-          <p className="text-dimWhite text-[19px] font-light mt-5 w-[70%] leading-[29px]">
+          <p className="text-dimWhite font-poppins text-[18px] font-light mt-5 max-w-full md:max-w-[75%] leading-[29px]">
             I&rsquo;m , a dedicated and passionate full-stack{" "}
             <span className="text-teal-500 font-bold">web apps (MERN) </span>{" "}
             and{" "}
@@ -161,7 +161,7 @@ const Hero = () => {
             and <span className="text-teal-500 font-bold">postgreSQL</span>
             ensuring data is handled securely and efficiently.
           </p>
-          <p className="text-dimWhite text-[19px] font-light mt-5 w-[70%] leading-[29px]">
+          <p className="text-dimWhite font-poppins text-[18px] font-light mt-5 max-w-full md:max-w-[75%] leading-[29px]">
             I am currently pursuing a BS in Computer Science from{" "}
             <span className="text-teal-500 font-bold">
               Virtual University, Pakistan
@@ -176,7 +176,7 @@ const Hero = () => {
           <div className="overflow-hidden border-4 border-teal-500 w-52 h-52 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56">
             <img
               src={profilePic}
-              alt="Umair Azmat"
+              alt="Muhammad Muneeb"
               className="object-cover w-full h-full"
             />
           </div>

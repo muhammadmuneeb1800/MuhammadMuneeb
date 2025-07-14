@@ -27,7 +27,7 @@ const Loading = () => {
         <div>
           <img
             src={profilePic}
-            alt="Umair Azmat"
+            alt="Muhammad Muneeb"
             className="w-[80px] h-[80px] border-2 border-teal-200 rounded-full"
           />
         </div>
