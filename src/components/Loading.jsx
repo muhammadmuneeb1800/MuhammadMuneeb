@@ -18,9 +18,9 @@ const Loading = () => {
       <div className="flex flex-col justify-between items-center">
         {/* Top Logo */}
         <div className="flex items-center gap-1 select-none">
-          <p className="text-cyan-300 text-4xl font-bold">{"{"}</p>
-          <p className="text-white mt-2 font-semibold">{"M MUNEEB"}</p>
-          <p className="text-cyan-300 text-4xl font-bold">{"}"}</p>
+          <p className="text-cyan-300 text-2xl sm:text-4xl font-bold">{"{"}</p>
+          <p className="text-white mt-1 sm:mt-2 font-semibold">{"M MUNEEB"}</p>
+          <p className="text-cyan-300 text-2xl sm:text-4xl font-bold">{"}"}</p>
         </div>
 
         {/* Bottom Profile Picture */}
