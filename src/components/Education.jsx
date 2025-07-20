@@ -4,7 +4,6 @@ import Lottie from "react-lottie-player";
 import animationData from "../lotties/quiz-mode-teal-dark.json";
 import { motion } from "framer-motion";
 
-// lottie config
 const defaultOptions = {
   loop: true,
   play: true,

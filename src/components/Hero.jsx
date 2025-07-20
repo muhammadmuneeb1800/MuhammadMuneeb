@@ -12,7 +12,6 @@ import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { CountUp } from "countup.js";
 
-// lottie config
 const defaultOptions = {
   loop: true,
   play: true,
