@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMail, AiOutlineHome, AiOutlinePhone } from "react-icons/ai"; // Importing specific icons
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import styles from "../style";
